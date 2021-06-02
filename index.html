@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniSitio-Bootstrap</title>
+    <link rel="stylesheet" href="estilos.css">
+    <!--stylesheet de bootstrap - CDN-->
+    <script src="https://kit.fontawesome.com/a582e75672.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <!--uso de clases para margin y padding-->
+        <nav class="bg-dark p-3">
+            <!--clase container-->
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <!--ejemplo de agregado de componentes-->
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link text-white active" href="#acam-home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#acam-product">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#acam-price">Precios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#acam-contact">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container mt-5">
+        <section id="acam-home">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4">MINI SITIO WEB</h1>
+                    <img src="imagenes/fondo.png" alt="fondo">
+                </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                    <button class="btn btn-primary me-md-2" type="button">Producto Principal</button>
+                  </div>
+            </div>
+        </section>
+        <section id="acam-product">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Productos</h2>
+                </div>
+            </div>
+            <div class="row">
+                <!--ejemplo de sistema de rows and columns-->
+                <div class="card" style="width: 23rem;">
+                    <h3 class="lead">Producto N° 01</h3>
+                    <img src="imagenes/portafolio1.png" class="card-img-top" alt="portafolio1">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card" style="width:23rem;">
+                    <h3 class="lead">Producto N° 01</h3>
+                    <img src="imagenes/portafolio2.png" class="card-img-top" alt="portafolio2">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 23rem;">
+                    <h3 class="lead">Producto N° 01</h3>
+                    <img src="imagenes/portafolio3.png" class="card-img-top" alt="portafolio3">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="acam-price">
+            <div class="row">
+                <div class="col-6">
+                    <h2>Precios</h2>
+                </div>
+            </div>
+            <div class="row">
+                <!--ejemplo de sistema de rows and columns-->
+                <div class="card" style="width: 17rem;">
+                    <img src="imagenes/img1.png" class="card-img-top" alt="img1">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">An item</li>
+                      <li class="list-group-item">A second item</li>
+                      <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 17rem;">
+                    <h1>Free</h1>
+                    <h1><i class="fas fa-dollar-sign"></i> 0</h1>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Siempre gratuito para 100 personas</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item"> - </li>
+                      <li class="list-group-item"> - </li>
+                      <li class="list-group-item">-  </li>
+                      <li class="list-group-item">-  </li>
+                      <li class="list-group-item">-  </li>
+                      <li class="list-group-item">-  </li>
+                      <li class="list-group-item">-  </li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 17rem;">
+                    <h1>Standart</h1>
+                    <h1><i class="fas fa-dollar-sign"></i> 70</h1>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Por usuario(medio) $70 al mes</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">-  </li>
+                      <li class="list-group-item">-  </li>
+                      <li class="list-group-item">-  </li>
+                      <li class="list-group-item">-  </li>
+                      <li class="list-group-item">-  </li>
+                      <li class="list-group-item">-  </li>
+                      <li class="list-group-item">-  </li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 17rem;">
+                    <h1>Premium</h1>
+                    <h1><i class="fas fa-dollar-sign"></i> 150</h1>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Por usuario(medio) $140 al mes</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">-  </li>
+                      <li class="list-group-item">-  </li>
+                      <li class="list-group-item">-  </li>
+                      <li class="list-group-item">-  </li>
+                      <li class="list-group-item">-  </li>
+                      <li class="list-group-item">-  </li>
+                      <li class="list-group-item">-  </li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="acam-contact" class="mb-5 mt-5">
+            <div class="row mb-3">
+                <div class="col-12">
+                    <h2>Contacto</h2>
+                </div>
+            </div>
+            <form>
+                <!--agregado de componente formulario-->
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputname">Nombre y Apellido</label>
+                        <input type="text" class="form-control" id="inputname">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress">Dirección</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, casa o piso">
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-8">
+                    <label for="inputCity">Ciudad</label>
+                    <input type="text" class="form-control" id="inputCity">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="inputZip">Correo</label>
+                    <input type="text" class="form-control" id="inputZip">
+                  </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="comments">Comentarios</label>
+                        <textarea name="" id="" cols="30" rows="10" class="form-control" id="comments"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Deseo recibir mails informativos
+                    </label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+        </section>
+        <section id="acam-home">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                    <button class="btn btn-primary me-md-2" type="button"><i class="fas fa-download"></i> Descargar APP</button>
+                </div>
+            </div>
+        </section>
+       
+    </main>
+    <footer class="bg-dark p-4">
+        <div class="nav justify-content-center">
+            <span class="nav-link text-white"><i class="fab fa-facebook-f"></i></i> acebook</span>
+            <span class="nav-link text-white"><i class="fab fa-twitter"></i> Twitter</span>
+            <span class="nav-link text-white"><i class="fab fa-whatsapp"></i> Whatsapp</span>
+            <span class="nav-link text-white"><i class="fab fa-facebook-messenger"></i> Messenger</span>
+        </div>
+    </footer>
+    <!--scripts de bootstrap - CDN-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

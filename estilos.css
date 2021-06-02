@@ -1,0 +1,23 @@
+header nav div ul li {
+    font-size: 1.3rem;
+}
+header nav div ul li:hover {
+    background: linear-gradient(109.6deg, #a53232 11.2%, #000000 91.1%);
+}
+main section div img{
+    width: 100%;
+}
+main section div img:hover {
+    transform: scale(0.9,0.9);
+}
+main section div h1 {
+    display: flex;
+    justify-content: center;
+}
+main section div button {
+    display: flex;
+    font-size: 1.5em;
+    border-radius: 5%;
+    border: none;
+    background: linear-gradient(109.6deg, #17d1a973 11.2%, #2154b3 91.1%);
+}
